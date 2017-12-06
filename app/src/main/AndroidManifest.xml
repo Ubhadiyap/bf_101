@@ -112,6 +112,8 @@
         <activity android:name=".Course_details"
             android:theme="@style/MyMaterialTheme.Base"
             />
+
+
         <!-- <activity android:name="edu.nutri.breast_feeding_101.app.AppController"></activity> -->
         <activity
             android:name=".Reset_password"

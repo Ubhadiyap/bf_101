@@ -137,7 +137,9 @@ public class Faqs extends AppCompatActivity {
                 answer2.setTextColor(Color.parseColor("#ff0000"));
                 answer2.setText(faq_answers[4]);
 
+
                 l5.addView(answer2);
+
             }
         });
 
