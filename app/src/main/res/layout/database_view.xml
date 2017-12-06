@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#cfcfcf"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nametextview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textColor="#c22d10"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/heighttextview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#c22d10"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/weighttextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#c22d10"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/bmivaluetextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#c22d10"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/bmiinterpretationtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#c22d10"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/idealweightvaluetextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#c22d10"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#c22d10"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#c22d10"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="----------------------------------------"
+        android:textColor="#c22d10"
+        android:textSize="18sp" />
+
+</LinearLayout>

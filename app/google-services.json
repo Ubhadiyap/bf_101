@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "660165425158",
+    "firebase_url": "https://bf101-5e3c5.firebaseio.com",
+    "project_id": "bf101-5e3c5",
+    "storage_bucket": "bf101-5e3c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660165425158:android:9d19fe08a14d60e2",
+        "android_client_info": {
+          "package_name": "edu.nutri.breast_feeding_101"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660165425158-4antt0tdjsashll8gon8p3t4nk1r3mmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx0zb-pU8RN15wWoLSbbzL_sTdy0u3sHI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660165425158:android:4c91c48b72d9eb7a",
+        "android_client_info": {
+          "package_name": "com.androidhive.materialtabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660165425158-4antt0tdjsashll8gon8p3t4nk1r3mmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx0zb-pU8RN15wWoLSbbzL_sTdy0u3sHI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
