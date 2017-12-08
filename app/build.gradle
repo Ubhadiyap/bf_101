@@ -27,7 +27,7 @@ android {
         }
     }
     compileSdkVersion 27
-    buildToolsVersion "26.0.2"
+    buildToolsVersion "27"
     defaultConfig {
         applicationId "edu.nutri.breast_feeding_101"
         minSdkVersion 16
