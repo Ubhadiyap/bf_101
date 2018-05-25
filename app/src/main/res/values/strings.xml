@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="backdrop_title">Market Place</string>
-    <string name="backdrop_subtitle">Compare market prices</string>
-
     <string name="banner_home_footer">ca-app-pub-3819608867192892/2385575760</string>
     <string name="interstitial_full_screen">ca-app-pub-3819608867192892/1408370164</string>
     <string name="facebook_app_id">132470483896366</string>
@@ -1147,18 +1144,6 @@ This means that, especially at first, you may feel like you\'re nursing around t
 
 
     </string-array>
-    <string name="title_activity_slider">Slider</string>
-
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
-
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
-    <string name="action_example">Example action</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_example">ExampleActivity</string>
 
 </resources>

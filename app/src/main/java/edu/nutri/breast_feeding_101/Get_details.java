@@ -37,8 +37,6 @@ import java.util.Map;
 
 public class Get_details extends Fragment {
 
-    UserDetails user_details = new UserDetails();
-
     public Get_details(){ }
 
     private static String file_url;
@@ -59,9 +57,9 @@ public class Get_details extends Fragment {
 
         reference1 = new Firebase(url);
 
-        user_id = user_details.get_user_id();
-        email = user_details.get_email();
-        username = user_details.get_username();
+        user_id = UserDetails.user_id;
+        email = UserDetails.email;
+        username = UserDetails.username;
 
         View rootView = inflater.inflate(R.layout.get_details, container, false);
 

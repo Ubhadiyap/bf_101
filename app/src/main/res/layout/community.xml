@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg5"
     >
 
     <ScrollView
@@ -17,20 +18,31 @@
              >
 
             <TextView
+                android:text="Welcome to BF_101 Community"
+                android:textStyle="italic"
+                android:textSize="22dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff00bf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView32" />
+
+            <TextView
                 android:text="Discussion Room"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/textView32"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="65dp"
                 android:background="@drawable/rounded_edittext6"
-                android:textColor="@color/colorPrimary"
+                android:textColor="#00ff00"
                 android:textStyle="bold"
                 android:textSize="23dp"
                 android:id="@+id/textView34" />
 
             <TextView
                 android:text="FAQs"
-                android:textColor="@color/colorPrimary"
+                android:textColor="#00ff00"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/textView34"
@@ -43,7 +55,7 @@
 
             <TextView
                 android:text="Admin"
-                android:textColor="@color/colorPrimary"
+                android:textColor="#00ff00"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"

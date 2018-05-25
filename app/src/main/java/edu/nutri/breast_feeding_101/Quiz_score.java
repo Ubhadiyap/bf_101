@@ -32,8 +32,6 @@ import java.util.Map;
  */
 public class Quiz_score extends Activity {
 
-    UserDetails user_details = new UserDetails();
-
     int width;
     String user_id, email, username, score;
     int high_scores[];
@@ -74,7 +72,7 @@ public class Quiz_score extends Activity {
         get_username_email();
 
         score = b.getString("score");
-        user_id = user_details.get_user_id();
+        user_id= b.getString("user_id");
 
         TextView textView22 = (TextView)findViewById(R.id.textView22);
         textView22.setText(score);
@@ -297,8 +295,8 @@ public class Quiz_score extends Activity {
     }
     private void get_username_email() {
 
-        username = user_details.get_username();
-        email = user_details.get_email();
+        username = UserDetails.username;
+        email = UserDetails.email;
     }
 
     public void create_table(String user_id, String name2, String score2, int no){
@@ -351,7 +349,7 @@ public class Quiz_score extends Activity {
 
         TextView tv3 = new TextView(this);
         tv3.setTextSize(18);
-        if (user_id.equals(user_details.get_user_id())){
+        if (user_id.equals(UserDetails.user_id)){
             tv3.setText("You");
             tv3.setTextColor(Color.parseColor("#00ff00"));
 
@@ -439,12 +437,12 @@ public class Quiz_score extends Activity {
 
     public void try_again(View v) {
         Intent it = new Intent(this, Quiz.class);
-//        it.putExtra("user_id", user_id);
+        it.putExtra("user_id", user_id);
         startActivity(it);
     }
     public void home(View v){
-        Intent it = new Intent(this, Slider.class);
-//        it.putExtra("user_id", user_id);
+        Intent it = new Intent(this, MainActivity.class);
+        it.putExtra("user_id", user_id);
         startActivity(it);
     }
     public void retry(View v){

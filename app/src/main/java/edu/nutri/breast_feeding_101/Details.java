@@ -356,9 +356,9 @@ public class Details extends Fragment {
 
 			b.compress(Bitmap.CompressFormat.JPEG, 100, out);
 
-//			Intent it = new Intent(getActivity(), MainActivity.class);
-////			it.putExtra("user_id", user_id);
-//			startActivity(it);
+			Intent it = new Intent(getActivity(), MainActivity.class);
+//			it.putExtra("user_id", user_id);
+			startActivity(it);
 //			finish();
 
 		}

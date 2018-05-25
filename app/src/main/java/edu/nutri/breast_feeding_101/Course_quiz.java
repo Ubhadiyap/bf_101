@@ -69,19 +69,15 @@ public class Course_quiz extends Activity implements View.OnClickListener, Anima
     Course_stats_db Course_stats_db;
     Course_score_db Course_score_db;
 
-    UserDetails user_details = new UserDetails();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.quiz);
 
         Bundle b = getIntent().getExtras();
+        user_id = b.getString("user_id");
+        pre_ass_score = b.getString("score_string");
         course = b.getString("course");
-
-        pre_ass_score = user_details.get_pre_ass_score();
-
-        user_id = user_details.get_user_id();
 
         Course_stats_db = new Course_stats_db(this.getApplicationContext());
         Course_score_db = new Course_score_db(this.getApplicationContext());
@@ -278,9 +274,9 @@ public class Course_quiz extends Activity implements View.OnClickListener, Anima
                 add_to_Course_stats_database();
                 add_to_Course_score_database();
 
-                Intent i = new Intent(this, Score_page.class);
+                Intent i = new Intent(this, Reset_password.Score_page.class);
 
-//                i.putExtra("user_id", user_id);
+                i.putExtra("user_id", user_id);
                 i.putExtra("score", score * 20);
                 startActivity(i);
 

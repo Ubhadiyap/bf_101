@@ -18,9 +18,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-//import edu.nutri.breast_feeding_101.MainActivity;
+import edu.nutri.breast_feeding_101.MainActivity;
 import edu.nutri.breast_feeding_101.R;
-import edu.nutri.breast_feeding_101.Slider;
 
 public class ListRSSItemsActivity extends ListActivity {
 	
@@ -45,7 +44,7 @@ public class ListRSSItemsActivity extends ListActivity {
 	private static String TAG_PUB_DATE = "pubDate";
 	private static String TAG_GUID = "guid"; // not used
 
-//	String user_id;
+	String user_id;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -56,8 +55,8 @@ public class ListRSSItemsActivity extends ListActivity {
 //		// hiding plus button
 //		btnAddSite.setVisibility(View.GONE);
 
-//		Bundle b = getIntent().getExtras();
-//		user_id = b .getString("user_id");
+		Bundle b = getIntent().getExtras();
+		user_id = b .getString("user_id");
 
 
 //		String rss_link = "https://bfeeding101.blogspot.com/feeds/";
@@ -168,7 +167,7 @@ public class ListRSSItemsActivity extends ListActivity {
 	@Override
 	public void onBackPressed(){
 		Intent it;
-		it = new Intent(this, Slider.class);
+		it = new Intent(this, MainActivity.class);
 //		it.putExtra("user_id", user_id);
 		startActivity(it);
 		finish();

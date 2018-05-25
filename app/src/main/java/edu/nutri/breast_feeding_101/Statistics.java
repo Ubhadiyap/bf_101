@@ -1,7 +1,7 @@
 package edu.nutri.breast_feeding_101;
 
 import android.annotation.SuppressLint;
-import android.support.v4.app.Fragment;
+import android.app.Fragment;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
@@ -33,11 +33,9 @@ public class Statistics extends Fragment {
 	String name, email;
 	String user_id;
 
-	UserDetails user_details = new UserDetails();
-
-	public Statistics(){
-		name = user_details.get_username();
-		user_id = user_details.get_user_id();
+	public Statistics(String username, String id){
+		name=username;
+		user_id = id;
 	}
 
 	String column_id, uploaded;
@@ -286,7 +284,7 @@ public class Statistics extends Fragment {
 			public void onClick(View v) {b6(); }});
 		clear();
 
-		email = user_details.get_email();
+		email = UserDetails.email;
 
 		return rootView;
 

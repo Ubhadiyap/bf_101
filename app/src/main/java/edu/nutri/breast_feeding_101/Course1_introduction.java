@@ -12,9 +12,7 @@ public class Course1_introduction extends Activity {
 	TextView course_note, main_title, sub_title;
 	String user_id;
 	
-//	String pre_ass_score;
-
-	UserDetails user_details = new UserDetails();
+	String pre_ass_score;
 	@Override
 	protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
@@ -30,15 +28,14 @@ public class Course1_introduction extends Activity {
 
 		course_note.setText(R.string.c1a);
 		
-//		Bundle b = getIntent().getExtras();
-//		pre_ass_score = b.getString("score_string");
+		Bundle b = getIntent().getExtras();
+		pre_ass_score = b.getString("score_string");
 
-		user_id = user_details.get_user_id();
+		user_id = UserDetails.user_id;
 	}
 	
 	public void next(View v){
-
-
+		
 		x++;
 		if (x==1){
 			course_note.setText(R.string.c1a);
@@ -54,12 +51,12 @@ public class Course1_introduction extends Activity {
 		}
 		else{
 		//startActivity(new Intent(this, Course1_quiz.class));
-
+		
 		Intent it = new Intent(this, Course_quiz.class);
 		it.putExtra("course", "1");
-//		it.putExtra("user_id", user_id);
+		it.putExtra("user_id", user_id);
 //			Toast.makeText(getApplicationContext(), user_id+" ", Toast.LENGTH_SHORT).show();
-//			it.putExtra("score_string", pre_ass_score);
+			it.putExtra("score_string", pre_ass_score);
 		startActivity(new Intent(it));
 	}
 	}

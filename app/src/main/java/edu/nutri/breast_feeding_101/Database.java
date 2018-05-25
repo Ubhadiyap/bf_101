@@ -11,7 +11,7 @@ public class Database extends SQLiteOpenHelper
 	//DATBASE INPUTS
 	private static final String DATABASE_NAME="login_database";
 
-	static final String login_database = "login_database";
+	public static final String login_database = "login_database";
 	
 	static final String username="username";
 	static final String email="email";
@@ -71,4 +71,4 @@ static final String SELECT_ALL = "SELECT  * FROM login_database";
 		DBase.execSQL("DROP TABLE IF EXISTS scores");
 		onCreate(DBase);
 	}
-}
+}	

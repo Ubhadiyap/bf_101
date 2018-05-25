@@ -60,8 +60,6 @@ import com.theartofdev.edmodo.cropper.CropImageView;
 
 public class Update_details extends Activity {
 
-	UserDetails user_details = new UserDetails();
-
 	FileOutputStream out = null;
 
 	long totalSize = 0;
@@ -122,9 +120,9 @@ public class Update_details extends Activity {
 
 		imageView = (ImageView)findViewById(R.id.imageView);
 
-		user_id = user_details.get_user_id();
-		username = user_details.get_username();
-		email = user_details.get_email();
+		user_id = UserDetails.user_id;
+		username = UserDetails.username;
+		email = UserDetails.email;
 
         Button button1 = (Button) findViewById(R.id.button1);
         button1.setOnClickListener(new OnClickListener() {

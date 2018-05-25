@@ -42,19 +42,17 @@ import com.google.firebase.auth.FirebaseUser;
 import edu.nutri.breast_feeding_101.R;
 
 
-public class  Login extends Activity{
-
-    UserDetails user_details = new UserDetails();
+public class Login extends Activity{
 
     //	MenuItem closeOption;
-//    String dbase_email = "";
-//    String dbse_password;
-//    String dbase_username;
+    String dbase_email = "";
+    String dbse_password;
+    String dbase_username;
 
-    String username, email;
+    String username;
     String password;
     private ProgressBar progressBar;
-    EditText email_ed;
+    EditText username_ed;
     EditText password_ed;
 
     Database database;
@@ -82,6 +80,11 @@ public class  Login extends Activity{
 
         Firebase.setAndroidContext(this);
 
+//		ActionBar actionBar = getActionBar();
+
+        // Enabling Back navigation on Action Bar icon
+//		actionBar.setDisplayHomeAsUpEnabled(true);
+
         auth = FirebaseAuth.getInstance();
 
 //		progressBar = (ProgressBar) findViewById(R.id.progressBar2);
@@ -89,8 +92,8 @@ public class  Login extends Activity{
         database = new Database(this);
 
 
-        email_ed = (EditText)findViewById(R.id.email_ed);
-//        email_ed.setText("kolaak47@yahoo.com");
+        username_ed = (EditText)findViewById(R.id.email_ed);
+//        username_ed.setText("kolaak47@yahoo.com");
         password_ed = (EditText)findViewById(R.id.password_ed);
 //        password_ed.setText("kolaak47");
 
@@ -100,8 +103,6 @@ public class  Login extends Activity{
             public void onClick(View v) {
                 Intent it = new Intent(Login.this, Contact_us2.class);
                 startActivity(it);
-
-//                Toast.makeText(Login.this, user_details.get_username()+ " ////////////////// "+ user_details.get_user_id() + " "+ user_details.get_email(), Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -111,8 +112,11 @@ public class  Login extends Activity{
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user != null) {
 
-                    get_user_details(auth.getCurrentUser().getUid());
+                    UserDetails.user_id = auth.getCurrentUser().getUid();
 
+                    Intent it = new Intent(Login.this, MainActivity.class);
+                    startActivity(it);
+                    finish();
                 } else {
 
                 }
@@ -120,45 +124,6 @@ public class  Login extends Activity{
         };
 
         Check_firebase();
-
-    }
-
-    private void get_user_details(String uid) {
-
-        Database database = new Database(this);
-        Cursor cursor = database.getWritableDatabase().rawQuery(database.SELECT_ALL, null);
-
-        if (cursor.getCount() != 0 ) {
-            if(cursor.moveToFirst()){
-                do {
-                    if(uid.equals(cursor.getString(cursor.getColumnIndex("user_id")))){
-
-                        String email = cursor.getString(cursor.getColumnIndex("email"));
-                        String user_id = cursor.getString(cursor.getColumnIndex("user_id"));
-                        String username = cursor.getString(cursor.getColumnIndex("username"));
-
-
-                        UserDetails user_details = new UserDetails(username, email, user_id);
-
-//                        user_details.set_email(email);
-//                        user_details.set_user_id(user_id);
-//                        user_details.set_username(username);
-//                        username = cursor.getString(cursor.getColumnIndex("username"));
-//                        email = cursor.getString(cursor.getColumnIndex("email"));
-//                        user_details.set_user_id( );
-
-//                        Toast.makeText(Login.this, username+ " ------------- "+ user_id + " "+ email, Toast.LENGTH_SHORT).show();
-//                        Toast.makeText(Login.this, user_details.get_username()+ " ////////////////// "+ user_details.get_user_id() + " "+ user_details.get_email(), Toast.LENGTH_SHORT).show();
-
-                        Intent it = new Intent(Login.this, Slider.class);
-                        startActivity(it);
-                        finish();
-                    }
-
-                }while (cursor.moveToNext());
-            }}
-
-
 
     }
 
@@ -178,13 +143,13 @@ public class  Login extends Activity{
 
     public void login(View v) {
 
-        email = email_ed.getText().toString();
+        username = username_ed.getText().toString();
         password = password_ed.getText().toString();
 
-        if (email.equals("")) {
-            email_ed.setError("Enter your Email");
-        } else if (!email.contains("@")) {
-            email_ed.setError("Invalid email");
+        if (username.equals("")) {
+            username_ed.setError("Enter your Email");
+        } else if (!username.contains("@")) {
+            username_ed.setError("Invalid email");
         } else if (password.equals("") || password.length() < 6) {
             password_ed.setError(getString(R.string.minimum_password));
         } else {
@@ -197,7 +162,7 @@ public class  Login extends Activity{
                 alertDialog.setMessage("Please wait.....");
                 alertDialog.show();
 
-                auth.signInWithEmailAndPassword(email_ed.getText().toString().trim(), password_ed.getText().toString())
+                auth.signInWithEmailAndPassword(username_ed.getText().toString().trim(), password_ed.getText().toString())
                         .addOnCompleteListener(Login.this, new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -226,26 +191,19 @@ public class  Login extends Activity{
                                         }
                                     }
                                     if (x == 0) {
-
-                                        get_username();
-
                                         Database DBase = new Database(getApplicationContext());
 
                                         ContentValues values = new ContentValues();
 
-
-
                                         values.put("username", username);
-                                        values.put("email", email_ed.getText().toString().trim());
+                                        values.put("email", username_ed.getText().toString().trim());
                                         values.put("user_id", user_id);
-
-//                                        UserDetails user_details = new UserDetails(username, email, user_id);
 
                                         DBase.getWritableDatabase().insert(Database.login_database, null, values);
                                     }
-                                    user_details.set_user_id(auth.getCurrentUser().getUid());
+                                    UserDetails.user_id = auth.getCurrentUser().getUid();
 
-                                    Intent it = new Intent(Login.this, Slider.class);
+                                    Intent it = new Intent(Login.this, MainActivity.class);
                                     startActivity(it);
                                     finish();
                                 }
@@ -256,19 +214,9 @@ public class  Login extends Activity{
         }
     }
 
-    private void get_username() {
-
-        final ProgressDialog alertDialog = new ProgressDialog(this);
-        alertDialog.setMessage("Please wait.....");
-        alertDialog.show();
-
-
-
-    }
-
     private void check_hint() {
 
-        String email = email_ed.getText().toString().trim();
+        String email = username_ed.getText().toString().trim();
 
         String query = "SELECT * FROM login_database WHERE email='" + email +"'";
 

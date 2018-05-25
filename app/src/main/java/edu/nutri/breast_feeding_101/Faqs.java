@@ -3,8 +3,6 @@ package edu.nutri.breast_feeding_101;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -17,7 +15,7 @@ import android.widget.Toast;
 
 
 
-public class Faqs extends AppCompatActivity {
+public class Faqs extends Activity {
 
     TextView answer;
     RelativeLayout main_lay;
@@ -37,11 +35,6 @@ public class Faqs extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.faqs);
-
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Frequently asked questions");
 
         main_lay = (RelativeLayout)findViewById(R.id.main_lay);
         l1 = (LinearLayout)findViewById(R.id.l1);
@@ -137,9 +130,7 @@ public class Faqs extends AppCompatActivity {
                 answer2.setTextColor(Color.parseColor("#ff0000"));
                 answer2.setText(faq_answers[4]);
 
-
                 l5.addView(answer2);
-
             }
         });
 

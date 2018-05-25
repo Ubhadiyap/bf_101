@@ -60,19 +60,14 @@ public class Course_preassesment extends Activity implements View.OnClickListene
     String [] option_3;
     String [] option_4;
     String [] answer;
-
-    UserDetails user_details = new UserDetails();
-
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.quiz);
 
         Bundle b = getIntent().getExtras();
-
-        course = String.valueOf(b.getInt("course"));
-
-        user_id = user_details.get_user_id();
+        user_id = b.getString("user_id");
+        course= b.getString("course");
 
         textView33 = (TextView)findViewById(R.id.textView33);
         rel3 = (RelativeLayout)findViewById(R.id.rel3);
@@ -254,11 +249,8 @@ public class Course_preassesment extends Activity implements View.OnClickListene
                         it = new Intent(this, Course6_introduction.class);
                         break;
                 }
-
-                user_details.set_pre_ass_score(score_string);
-
-//                it.putExtra("user_id", user_id);
-//                it.putExtra("score_string", score_string);
+                it.putExtra("user_id", user_id);
+                it.putExtra("score_string", score_string);
 
                 startActivity(new Intent(it));
                 cdt.cancel();
@@ -292,7 +284,7 @@ public class Course_preassesment extends Activity implements View.OnClickListene
 
     @Override
     public void onBackPressed(){
-        Intent it = new Intent(this, Slider.class);
+        Intent it = new Intent(this, MainActivity.class);
 //        it.putExtra("user_id", user_id);
         startActivity(it);
 

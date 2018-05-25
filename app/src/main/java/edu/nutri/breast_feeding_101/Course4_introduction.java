@@ -9,20 +9,19 @@ import android.widget.Toast;
 
 public class Course4_introduction extends Activity {
 
-	UserDetails user_details = new UserDetails();
 	String user_id;
 	int x ;
 	TextView textView3, main_title, sub_title;
-//	String pre_ass_score;
+	String pre_ass_score;
 	@Override
 	protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.courses);
 		
 		Bundle b = getIntent().getExtras();
-//		pre_ass_score = b.getString("score_string");
+		pre_ass_score = b.getString("score_string");
 
-		user_id = user_details.get_user_id();
+		user_id = UserDetails.user_id;
 
 		x=1;
 
@@ -58,8 +57,8 @@ public void next(View v){
 
 			Intent it = new Intent(this, Course_quiz.class);
 			it.putExtra("course", "4");
-//			it.putExtra("user_id", user_id);
-//			it.putExtra("score_string", pre_ass_score);
+			it.putExtra("user_id", user_id);
+			it.putExtra("score_string", pre_ass_score);
 			startActivity(new Intent(it));
 	}
 	}

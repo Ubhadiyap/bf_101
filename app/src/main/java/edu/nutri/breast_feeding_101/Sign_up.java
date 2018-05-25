@@ -35,8 +35,6 @@ import edu.nutri.breast_feeding_101.R;
 
 public class Sign_up extends Activity{
 
-	UserDetails user_details = new UserDetails();
-
 	static String username;
 	String email;
 	String password;
@@ -114,7 +112,7 @@ public class Sign_up extends Activity{
 		} else {
 
 			if (connecivity == false) {
-				Toast.makeText(this, "No Connection Found", Toast.LENGTH_SHORT).show();
+//				Toast.makeText(this, "No Connection Found", Toast.LENGTH_SHORT).show();
 			} else {
 				String email = "";
 
@@ -162,12 +160,9 @@ public class Sign_up extends Activity{
 											if (!task.isSuccessful()) {
 												show_snackbar("Authentication failed." + task.getException());
 											} else {
+												user_id = auth.getCurrentUser().getUid();
+												UserDetails.user_id = auth.getCurrentUser().getUid();
 												add_to_database();
-
-												startActivity(new Intent(getApplicationContext(), Login.class));
-//												user_id = auth.getCurrentUser().getUid();
-//												user_details.set_user_id(auth.getCurrentUser().getUid());
-//
 											}
 										}
 									});
@@ -198,10 +193,8 @@ public class Sign_up extends Activity{
 										show_snackbar("Authentication failed." + task.getException());
 									} else {
 										add_to_database();
-
-										startActivity(new Intent(getApplicationContext(), Login.class));
-//											startActivity(new Intent(Sign_up.this, Slider.class));
-											finish();
+//											startActivity(new Intent(Sign_up.this, MainActivity.class));
+//											finish();
 									}
 								}
 							});
@@ -225,9 +218,7 @@ public class Sign_up extends Activity{
 
 		DBase.getWritableDatabase().insert(DBase.login_database, null, values);
 
-
-
-		Intent it = new Intent(this, Slider.class);
+		Intent it = new Intent(this, MainActivity.class);
 		startActivity(it);
 		finish();
 

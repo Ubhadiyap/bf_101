@@ -28,9 +28,6 @@ import java.util.Map;
 
 public class Discussions extends Activity{
 
-
-    UserDetails user_details = new UserDetails();
-
     TextView noUsersText;
     int totalUsers = 0;
     ProgressDialog pd;
@@ -60,7 +57,7 @@ public class Discussions extends Activity{
         editText = (EditText) findViewById(R.id.editText);
         noUsersText = (TextView) findViewById(R.id.noUsersText);
 
-        email = user_details.get_email();
+        email = UserDetails.email;
         message = "this is a sample message used to test community function and chat of bf101";
         name = "adekola";
         time = "12:30 20/2/2017";
@@ -249,8 +246,8 @@ public class Discussions extends Activity{
             map.put("message", editText.getText().toString());
             map.put("date", Time);
             //TODO username
-            map.put("name", user_details.get_username());
-            map.put("email", user_details.get_email());
+            map.put("name", UserDetails.username);
+            map.put("email", UserDetails.email);
             map.put("comment", comment_code);
             reference1.push().setValue(map);
 

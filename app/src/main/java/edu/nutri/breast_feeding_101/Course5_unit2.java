@@ -11,18 +11,15 @@ public class Course5_unit2 extends Activity {
 	String user_id;
 	int x ;
 	TextView textView3, main_title, sub_title;
-//	String pre_ass_score;
-
-	UserDetails user_details = new UserDetails();
-
+	String pre_ass_score;
 	@Override
 	protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.courses);
 		
-//		Bundle b = getIntent().getExtras();
-		user_id = user_details.get_user_id();
-//		pre_ass_score = b.getString("score_string");
+		Bundle b = getIntent().getExtras();
+		user_id = b.getString("user_id");
+		pre_ass_score = b.getString("score_string");
 		x=1;
 
 		main_title = (TextView)findViewById(R.id.main_title);
@@ -35,7 +32,7 @@ public class Course5_unit2 extends Activity {
 		textView3.setText(R.string.c5e);
 	}
 	
-	public void next(View v){
+public void next(View v){
 		
 		x++;
 		if (x==1){
@@ -51,8 +48,8 @@ public class Course5_unit2 extends Activity {
 
 		Intent it = new Intent(this, Course_quiz.class);
 			it.putExtra("course", "5");
-//		it.putExtra("user_id", user_id);
-//			it.putExtra("score_string", pre_ass_score);
+		it.putExtra("user_id", user_id);
+			it.putExtra("score_string", pre_ass_score);
 		startActivity(new Intent(it));
 	}
 	}
@@ -71,7 +68,7 @@ public class Course5_unit2 extends Activity {
 		else if (x==0){
 
 			Intent it = new Intent(this, Course5_unit1.class);
-//			it.putExtra("user_id", user_id); it.putExtra("score_string", pre_ass_score);
+			it.putExtra("user_id", user_id); it.putExtra("score_string", pre_ass_score);
 			startActivity(new Intent(it));
 	}
 	

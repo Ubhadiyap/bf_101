@@ -1,6 +1,6 @@
 package edu.nutri.breast_feeding_101;
 
-import android.support.v4.app.Fragment;
+import android.app.Fragment;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -15,8 +15,6 @@ import edu.nutri.breast_feeding_101.R;
 public class Community extends Fragment {
     String user_id, email,  username;
 
-    UserDetails user_details = new UserDetails();
-
 	public Community(){
     }
 	
@@ -26,9 +24,9 @@ public class Community extends Fragment {
  
         View rootView = inflater.inflate(R.layout.community, container, false);
 
-        user_id = user_details.get_user_id();
-        username = user_details.get_username();
-        email = user_details.get_email();
+        user_id = UserDetails.user_id;
+        username = UserDetails.username;
+        email = UserDetails.email;
 
         TextView b1 = (TextView)rootView.findViewById(R.id.textView34);
         b1.setOnClickListener(new View.OnClickListener() {
@@ -52,14 +50,14 @@ public class Community extends Fragment {
         });
 
         final TextView b3 = (TextView)rootView.findViewById(R.id.textView36);
-        if (user_details.get_admin() == false){
+        if (UserDetails.admin == false){
             b3.setTextColor(Color.parseColor("#ff0000"));
         }
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                if (user_details.get_admin() == true){
+                if (UserDetails.admin == true){
                     startActivity(new Intent(getActivity(), Admin.class));
                 }
                 else {

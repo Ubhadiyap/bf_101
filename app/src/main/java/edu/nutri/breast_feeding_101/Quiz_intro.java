@@ -1,11 +1,11 @@
 package edu.nutri.breast_feeding_101;
 
 import android.annotation.SuppressLint;
+import android.app.Fragment;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,11 +17,12 @@ import android.widget.Button;
  * Created by Akano on 12/8/2016.
  */
 @SuppressLint("ValidFragment")
-public class Quiz_intro extends Fragment {
+public class Quiz_intro extends Fragment{
 
     Animation blink;
     String user_id;
-    public Quiz_intro(){
+    public Quiz_intro(String user_id2){
+        user_id = user_id2;
     }
 
     @Override
@@ -30,10 +31,6 @@ public class Quiz_intro extends Fragment {
 
 
         blink = AnimationUtils.loadAnimation(getActivity(), R.anim.blink);
-
-        UserDetails user_details = new UserDetails();
-
-        user_id = user_details.get_user_id();
 
         View rootView = inflater.inflate(R.layout.quiz_intro, container, false);
 
@@ -46,7 +43,7 @@ public class Quiz_intro extends Fragment {
                 //startActivity(new Intent(getActivity(), Course1_pre_Assessment.class));
 
                 Intent it = new Intent(getActivity(), Quiz.class);
-//                it.putExtra("user_id", user_id);
+                it.putExtra("user_id", user_id);
                 startActivity(new Intent(it));
 
 

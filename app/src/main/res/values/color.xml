@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="colorPrimary">#fcd849</color>
+    <color name="colorPrimaryDark">#fcd849</color>
+    <color name="colorAccent">#e86e1e</color>
+
     <color name="list_item_title">#c22d10</color>
     <color name="list_background">#FEFFe1</color>
     <color name="list_background_pressed">#d9ffaa</color>
     <color name="list_divider">#272727</color>
-    <color name="counter_text_bg">#c22d10</color>
-    <color name="counter_text_color">#c22d10</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
     <color name="text_color">#e35e4c</color>
 
-    <color name="colorPrimary">#c22d10</color>
-    <color name="colorPrimaryDark">#00a22e</color>
-    <color name="colorAccent">#00862e</color>
-    <color name="viewBg">#f1f5f8</color>
-    <color name="album_title">#c22d10</color>
+    <color name="blue">#add8c6</color>
+    <color name="lilac">#c8a2c8</color>
+
+    <color name="black">#000000</color>
+
+    <color name="buttonTextColor">#FF4081</color>
+    <color name="editTextTextColor">#FF4081</color>
+    <color name="editTextHintColor">#FF4081</color>
+
+    <color name="authBgEnd2">#a9ffaa</color>
+    <color name="authBgEnd3">#d9ffaa</color>
+
+    <color name="authBgStart">#FEFFe1</color>
+    <color name="authBgEnd">#ff8c00</color>
+
 </resources>

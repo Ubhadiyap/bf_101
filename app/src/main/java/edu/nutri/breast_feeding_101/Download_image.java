@@ -30,8 +30,6 @@ import java.util.Map;
 
 public class Download_image extends Activity{
 
-    UserDetails user_details = new UserDetails();
-
     ProgressDialog progress;
 
     Course_stats_db Course_stats_db;
@@ -75,12 +73,12 @@ public class Download_image extends Activity{
             e.printStackTrace();
         }
 
-        File output2 = new File(Environment.getExternalStorageDirectory() + File.separator + "Breast_feeding_101/", user_details.get_email()+".jpg");
+        File output2 = new File(Environment.getExternalStorageDirectory() + File.separator + "Breast_feeding_101/", UserDetails.email+".jpg");
         if(!output2.exists()){
 
             StorageReference storageRef = FirebaseStorage.getInstance().getReference();
 
-            storageRef.child("BF_101/"+ user_details.get_email() +".jpg").getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+            storageRef.child("BF_101/"+ UserDetails.email +".jpg").getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                 @Override
                 public void onSuccess(Uri uri) {
 
@@ -93,20 +91,20 @@ public class Download_image extends Activity{
                                     | DownloadManager.Request.NETWORK_MOBILE)
                             .setAllowedOverRoaming(false).setTitle("Demo")
                             .setDescription("Something useful. No, really.")
-                            .setDestinationInExternalPublicDir("/Breast_feeding_101", user_details.get_email()+".jpg");
+                            .setDestinationInExternalPublicDir("/Breast_feeding_101", UserDetails.email+".jpg");
 
                     mgr.enqueue(request);
 
-                    Intent intent = new Intent(getApplicationContext(), Slider.class);
+                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(intent);
                     finish();
-                    Toast.makeText(Download_image.this, uri.getPath()+"", Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(Download_image.this, uri.getPath()+"", Toast.LENGTH_SHORT).show();
 
                 }
             }).addOnFailureListener(new OnFailureListener() {
                 @Override
                 public void onFailure(@NonNull Exception exception) {
-                    Intent intent = new Intent(getApplicationContext(), Slider.class);
+                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(intent);
                     finish();
                     Toast.makeText(Download_image.this, "No image found", Toast.LENGTH_SHORT).show();
@@ -115,10 +113,10 @@ public class Download_image extends Activity{
 
         }
 else {
-            Intent intent = new Intent(getApplicationContext(), Slider.class);
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(intent);
         finish();
-            Toast.makeText(this, "exists", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this, "exists", Toast.LENGTH_SHORT).show();
         }
 
 
@@ -131,7 +129,7 @@ else {
 
             Course_Stat_ref = new Firebase(url2);
 
-            Course_Stat_ref.child(user_details.get_user_id()).addValueEventListener(new ValueEventListener() {
+            Course_Stat_ref.child(UserDetails.user_id).addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot snapshot) {
 

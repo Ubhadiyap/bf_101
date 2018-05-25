@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="edu.nutri.breast_feeding_101"
-    android:versionCode="4"
-    android:versionName="3.2">
+    android:versionCode="3"
+    android:versionName="3.1">
 
     <!-- <uses-sdk -->
     <!-- android:minSdkVersion="14" -->
@@ -17,8 +17,7 @@
         android:allowBackup="true"
         android:icon="@drawable/breast_feeding"
         android:label="@string/app_name"
-        android:theme="@style/MyMaterialTheme.Base"
-        >
+        android:theme="@style/AppBaseTheme">
         <service android:name=".MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -39,10 +38,13 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
+        <!--<activity-->
+            <!--android:name=".Login"-->
         <activity
-            android:name=".Login"
+            android:name=".auth.view.SplashActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/NoActionBar"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -89,17 +91,12 @@
         <activity android:name=".Course5_unit2" />
         <activity android:name=".Course6_introduction" />
         <activity android:name=".Course6_unit1" />
-        <activity android:name=".Score_page" />
+        <activity android:name=".Reset_password$Score_page" />
         <activity android:name=".Quiz" />
         <activity android:name=".Quiz_score" />
-
-        <activity android:name=".Faqs"
-        android:parentActivityName=".Slider"/>
-
+        <activity android:name=".Faqs" />
         <activity android:name=".Discussion_Room" />
-        <activity android:name=".Slider"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Others" />
         <activity android:name=".Chat" />
         <activity android:name=".Discussions" />
         <activity android:name=".Rss.ListRSSItemsActivity" />
@@ -109,11 +106,6 @@
         <activity android:name=".Download_image" />
         <activity android:name=".Export_details" />
 
-        <activity android:name=".Course_details"
-            android:theme="@style/MyMaterialTheme.Base"
-            />
-
-
         <!-- <activity android:name="edu.nutri.breast_feeding_101.app.AppController"></activity> -->
         <activity
             android:name=".Reset_password"
@@ -122,9 +114,14 @@
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/BaseAppTheme" />
-        <!--&lt;!&ndash;<activity-->
-            <!--android:name=".Slider"-->
-            <!--android:label="@string/title_activity_slider"></activity>&ndash;&gt;-->
+        <activity
+            android:name=".example.view.ExampleActivity"
+            android:label="@string/title_activity_example"/>
+
+        <activity
+            android:name=".auth.view.AuthActivity"
+            android:theme="@style/NoActionBar"
+            android:label="@string/title_activity_example"/>
     </application>
 
 </manifest>

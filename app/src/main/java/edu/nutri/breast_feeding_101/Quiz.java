@@ -32,8 +32,6 @@ import java.util.Random;
 
 public class Quiz extends Activity implements View.OnClickListener{
 
-    UserDetails user_details = new UserDetails();
-
     TextView textView33;
     RelativeLayout rel3;
     ImageView live_1, live_2,live_3;
@@ -80,9 +78,11 @@ public class Quiz extends Activity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.quiz);
 
-        user_id = user_details.get_user_id();
-        username = user_details.get_username();
-        email = user_details.get_email();
+        Bundle b = getIntent().getExtras();
+        user_id = b.getString("user_id");
+
+        username = UserDetails.username;
+        email = UserDetails.email;
 
         textView33 = (TextView)findViewById(R.id.textView33);
         rel3 = (RelativeLayout)findViewById(R.id.rel3);
@@ -232,7 +232,7 @@ public class Quiz extends Activity implements View.OnClickListener{
                     add_to_score_database();
 
                     Intent it = new Intent(getApplicationContext(), Quiz_score.class);
-//                    it.putExtra("user_id", user_id);
+                    it.putExtra("user_id", user_id);
                     it.putExtra("score", String.valueOf(score*20));
                     startActivity(it);
                 }
@@ -316,7 +316,7 @@ public class Quiz extends Activity implements View.OnClickListener{
 
                 add_to_score_database();
                 Intent it = new Intent(getApplicationContext(), Quiz_score.class);
-//                it.putExtra("user_id", user_id);
+                it.putExtra("user_id", user_id);
                 it.putExtra("score", String.valueOf(score*20));
                 startActivity(it);
             }

@@ -53,8 +53,6 @@ import edu.nutri.breast_feeding_101.adapter.CircleTransform;
 
 public class Chat extends Activity {
 
-    UserDetails user_details = new UserDetails();
-
     Bitmap b;
     MenuItem closeOption;
     ImageView sendButton;
@@ -75,7 +73,7 @@ public class Chat extends Activity {
 
         ActionBar actionBar = getActionBar();
 
-//        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         File folder = new File(Environment.getExternalStorageDirectory() +
                 File.separator + "Breast_feeding_101" + File.separator + "Chat_Images");
@@ -120,7 +118,7 @@ public class Chat extends Activity {
                 comment_count++;
 
                 //TODO username
-                if(email.equals(user_details.get_email())){
+                if(email.equals(UserDetails.email)){
                     addMessageBox(message, 1, time, "You", email, user_id);
                 }
                 else{
@@ -176,9 +174,9 @@ public class Chat extends Activity {
             Map<String, String> map = new HashMap<String, String>();
             map.put("Message", messageText);
             map.put("Time", Time);
-            map.put("Name", user_details.get_username());
-            map.put("Email", user_details.get_email());
-            map.put("User_id", user_details.get_user_id());
+            map.put("Name", UserDetails.username);
+            map.put("Email", UserDetails.email);
+            map.put("User_id", UserDetails.user_id);
             reference1.push().setValue(map, new Firebase.CompletionListener() {
                 @Override
                 public void onComplete(FirebaseError firebaseError, Firebase firebase) {
@@ -208,7 +206,7 @@ public class Chat extends Activity {
         TextView textView = new TextView(Chat.this);
         textView.setTextColor(Color.parseColor("#ff4141"));
 
-        if (user_details.get_admin_email_list().contains(email)) {
+        if (UserDetails.admin_email.contains(email)) {
             userName = userName + " (ADMIN)";
             textView.setTextColor(Color.parseColor("#ff0000"));
         }
@@ -300,7 +298,7 @@ public class Chat extends Activity {
         ll.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (user_details.get_admin() == true) {
+                if (UserDetails.admin == true) {
 
                     Intent it = new Intent(getApplicationContext(), Admin_user_details.class);
                     it.putExtra("user_id", id);
@@ -308,7 +306,7 @@ public class Chat extends Activity {
                     startActivity(it);
 
                 } else {
-                    if (user_details.get_admin_email_list().contains(mail)) {
+                    if (UserDetails.admin_email.contains(mail)) {
                         Intent it = new Intent(getApplicationContext(), Admin_user_details.class);
                         it.putExtra("user_id", id);
                         it.putExtra("email", mail);
@@ -504,9 +502,9 @@ public class Chat extends Activity {
         Map<String, String> map = new HashMap<String, String>();
         map.put("Message", message);
         map.put("Time", time);
-        map.put("Name", user_details.get_username());
-        map.put("Email", user_details.get_email());
-        map.put("User_id", user_details.get_user_id());
+        map.put("Name", UserDetails.username);
+        map.put("Email", UserDetails.email);
+        map.put("User_id", UserDetails.user_id);
 
         reference1.push().setValue(map, new Firebase.CompletionListener() {
             @Override

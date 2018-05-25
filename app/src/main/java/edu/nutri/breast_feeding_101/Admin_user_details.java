@@ -51,7 +51,7 @@ public class Admin_user_details extends Activity {
 
     TextView username, user_email, user_id, gender, age, marital_status, level_of_education, pregnancy_status, no_of_children, religion;
     ImageView imageView3;
-    UserDetails user_details = new UserDetails();
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -84,7 +84,7 @@ public class Admin_user_details extends Activity {
 
         RelativeLayout admin_layout = (RelativeLayout)findViewById(R.id.admin_layout);
         RelativeLayout nonadmin_layout = (RelativeLayout)findViewById(R.id.nonadmin_layout);
-        if (user_details.get_admin_email_list().contains(email)){
+        if (UserDetails.admin_email.contains(email)){
             RelativeLayout1.removeView(nonadmin_layout);
         }
         else {
