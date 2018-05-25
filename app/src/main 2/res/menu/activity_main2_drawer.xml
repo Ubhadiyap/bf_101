@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_trending_up_black_18dp"
+            android:title="Statistics" />
+        <item
+            android:id="@+id/nav_course_1"
+            android:icon="@drawable/ic_book_black_18dp"
+            android:title="Courses" />
+
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/quiz_icon"
+            android:title="Quiz" />
+
+        <item
+            android:id="@+id/nav_community"
+            android:icon="@drawable/ic_people_outline_black_18dp"
+            android:title="Community" />
+
+        <item
+            android:id="@+id/nav_blog"
+            android:icon="@drawable/blog1"
+            android:title="Blog" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_info_outline_black_18dp"
+                android:title="About us" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_black_18dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

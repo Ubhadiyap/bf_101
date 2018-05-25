@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    >
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Welcome to the Quiz section"
+        android:textSize="25sp"
+        android:textColor="@color/text_color"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/rules"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="RULES"
+            android:textColor="#8888cc"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rules"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="- This quiz contains randomly selected questions from all Courses"
+            android:textColor="#66cc66"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/answer4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp"
+            android:background="@drawable/rounded_edittext2"
+            android:text="START"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/answer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/question"
+            android:layout_below="@+id/question"
+            android:layout_marginTop="20dp"
+            android:text="- 20 points will be awarded for each correctly answered question"
+            android:textColor="#66cc66"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/answer1"
+            android:layout_below="@+id/answer1"
+            android:layout_marginTop="10dp"
+            android:text="- you will be given only 15 seconds to answer each question"
+            android:textColor="#66cc66"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/answer4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/answer2"
+            android:layout_below="@+id/answer2"
+            android:layout_marginTop="10dp"
+            android:text="- You will be given 3 chances to answer a question wrongly or run out of time"
+            android:textColor="#66cc66"
+            android:textSize="17sp"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>

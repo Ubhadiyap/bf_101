@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/ribads/Documents/Mr leshi/bf_101/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-or/values-or.xml",
+            "map": [
+                {
+                    "source": "/Users/ribads/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/286fce3d86524a6d4938a259d600e9cb/res/values-or/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "102",
+                        "endOffsets": "307"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "106",
+                        "endOffsets": "157"
+                    }
+                }
+            ]
+        }
+    ]
+}

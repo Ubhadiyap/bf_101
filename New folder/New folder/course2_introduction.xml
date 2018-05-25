@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5" >
+
+    <TextView
+                android:id="@+id/main_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:text="@string/c2"
+                android:textColor="@color/text_color"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+    	<ScrollView
+    	    android:id="@+id/scrollView1"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentBottom="true"
+    	    android:layout_below="@+id/main_title"
+    	    android:layout_marginTop="25dp" >
+
+    		<LinearLayout
+    		    android:id="@+id/linearLayout1"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="match_parent"
+    	    android:layout_alignParentLeft="true"
+    	    android:background="@drawable/list_selector"
+    	    android:orientation="vertical">
+
+    			<RelativeLayout
+    			    android:layout_width="match_parent"
+    			    android:layout_height="wrap_content" >
+
+    				<ImageView
+    				    android:id="@+id/course_image"
+    				    android:layout_width="wrap_content"
+    				    android:layout_height="wrap_content"
+    				    android:layout_alignParentTop="true"
+    				    android:layout_centerHorizontal="true"
+    				    android:src="@drawable/cradle" />
+
+    			</RelativeLayout>
+
+    		    <TextView
+    		        android:id="@+id/textView9"
+    		        android:layout_width="wrap_content"
+    		        android:layout_height="wrap_content"
+    		        android:text=" "
+    		        android:textColor="@color/text_color"
+    		        android:textSize="16sp" />
+
+
+    		    <TextView
+    		        android:id="@+id/course_note"
+    		        android:layout_width="wrap_content"
+    		        android:layout_height="wrap_content"
+    		        android:layout_marginLeft="25dp"
+    		        android:layout_marginRight="25dp"
+    		        android:text="@string/c2a"
+    		        android:textColor="@color/text_color"
+    		        android:textSize="16sp" />
+
+    		    <RelativeLayout
+    		        android:layout_width="match_parent"
+    		        android:layout_height="wrap_content" >
+    				
+    		        <ImageView
+    		            android:id="@+id/button2"
+    		            android:layout_width="45dp"
+    		            android:layout_height="45dp"
+    		            android:layout_alignParentLeft="true"
+    		            android:background="@drawable/list_selector"
+        				android:text="Prev"
+        				android:src="@drawable/arrow"
+        				android:layout_marginLeft="25dp"
+        				android:onClick="prev"
+        				android:clickable="true"
+        				android:textColor="#00ff00"
+        				android:textStyle="bold" />
+
+    		        <ImageView
+    		            android:id="@+id/button1"
+    		            android:layout_width="45dp"
+    		            android:layout_height="45dp"
+    		            android:layout_alignParentRight="true"
+    		            android:background="@drawable/list_selector"
+    		            android:onClick="next"
+    		            android:src="@drawable/arrow2"
+    		            android:layout_marginRight="25dp"
+    		            android:clickable="true"
+    		            android:text="Next"
+    		            android:textColor="#00ff00"
+    		            android:textStyle="bold" />
+
+    		    </RelativeLayout>
+
+    		</LinearLayout>
+
+    	</ScrollView>
+
+</RelativeLayout>

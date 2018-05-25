@@ -1,0 +1,98 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1d7281b9 com.opera.max.global/com.opera.max.ui.v2.MainActivity
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        12ee955f com.opera.max.global/com.opera.max.web.ApplicationManager$PackageUpdatesReceiver
+        3b5dc9fe com.opera.max.global/com.opera.max.web.PreinstallHandler$PackageUpdatesReceiver
+
+  Non-Data Actions:
+      android.net.conn.TETHER_STATE_CHANGED:
+        2792bbac com.opera.max.global/com.opera.max.web.TetheringManager$TetheringChangeReceiver
+      android.net.conn.CONNECTIVITY_CHANGE:
+        21b08075 com.opera.max.global/com.opera.max.web.ConnectivityMonitor$ChangeReceiver
+      com.opera.max.memory_monitor.stop:
+        2ec8880a com.opera.max.global/com.opera.max.util.MemoryMonitorReceiver
+      com.android.vending.INSTALL_REFERRER:
+        691287b com.opera.max.global/com.AdX.tag.AdXAppTracker
+      android.intent.action.LOCALE_CHANGED:
+        1045e698 com.opera.max.global/com.opera.max.web.LocaleUtils$LocaleChangeReceiver
+      android.net.wifi.WIFI_AP_STATE_CHANGED:
+        2792bbac com.opera.max.global/com.opera.max.web.TetheringManager$TetheringChangeReceiver
+      android.intent.action.TIMEZONE_CHANGED:
+        2b95aef1 com.opera.max.global/com.opera.max.web.TimeManager$DateTimeReceiver
+      android.intent.action.TIME_SET:
+        2b95aef1 com.opera.max.global/com.opera.max.web.TimeManager$DateTimeReceiver
+      android.intent.action.BOOT_COMPLETED:
+        296f1ad6 com.opera.max.global/com.opera.max.BoostUIService$StartAtBootReceiver
+      android.intent.action.USER_PRESENT:
+        15ffd157 com.opera.max.global/com.opera.max.web.LowSavingsReminderControl$UserPresenceReceiver
+      android.intent.action.DATE_CHANGED:
+        2b95aef1 com.opera.max.global/com.opera.max.web.TimeManager$DateTimeReceiver
+      com.opera.max.memory_monitor.start:
+        2ec8880a com.opera.max.global/com.opera.max.util.MemoryMonitorReceiver
+      android.intent.action.MY_PACKAGE_REPLACED:
+        ffed444 com.opera.max.global/com.opera.max.BoostUIService$MyPackageReplacedReceiver
+      android.intent.action.ACTION_SHUTDOWN:
+        24c5492d com.opera.max.global/com.opera.max.util.PeriodicReportService$OnShutdownReceiver
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.net.VpnService:
+        a1a0e62 com.opera.max.global/com.opera.max.vpn.NativeVPNService
+
+Registered ContentProviders:
+  com.opera.max.global/android.support.v4.content.FileProvider:
+    Provider{3f462bf3 com.opera.max.global/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.opera.max.diagnostics]:
+    Provider{3f462bf3 com.opera.max.global/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{336f0b0 com.opera.max.global}
+
+Key Set Manager:
+  [com.opera.max.global]
+      Signing KeySets: 20589
+
+Packages:
+  Package [com.opera.max.global] (33da4b29):
+    userId=10071 gids=[3003, 1028, 1015, 3002, 3001]
+    pkg=Package{218eaeae com.opera.max.global}
+    codePath=/system/app/OperaMaxApp
+    resourcePath=/system/app/OperaMaxApp
+    legacyNativeLibraryDir=/system/app/OperaMaxApp/lib
+    primaryCpuAbi=armeabi-v7a
+    secondaryCpuAbi=null
+    versionCode=9075482 targetSdk=21
+    versionName=0.9.754.82
+    splits=[base]
+    applicationInfo=ApplicationInfo{336f0b0 com.opera.max.global}
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    pkgFlagsEx=[ ]
+    dataDir=/data/data/com.opera.max.global
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2016-04-07 09:43:23
+    firstInstallTime=2016-04-07 09:43:23
+    lastUpdateTime=2016-04-07 09:43:23
+    signatures=PackageSignatures{b8d944f [129267dc]}
+    permissionsFixed=false haveGids=true installStatus=1
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+    grantedPermissions:
+      android.permission.WRITE_SETTINGS
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.BLUETOOTH
+      android.permission.GET_TASKS
+      android.permission.INTERNET
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.READ_PHONE_STATE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.ACCESS_WIFI_STATE

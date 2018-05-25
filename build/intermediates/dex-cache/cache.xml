@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\149cc83afec22513c04fecf734d44b7d64362172\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="34c23b5894b4f24d566bfc33e0e25462c6436b78">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f2304a264e483215626e567bb4125b8c3e94e6c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\4841853a7a8a183919e8d3006e6f3637f8774786\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_788d5b805d26a8216acd1d08c2086e4ac7a56c3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\149cc83afec22513c04fecf734d44b7d64362172\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="34c23b5894b4f24d566bfc33e0e25462c6436b78">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f2304a264e483215626e567bb4125b8c3e94e6c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\0f052f2268310deeee7f0cb37b10c570503a9ce3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e0fb98fd899c9ce3602455299749af4d5100a3d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\91940cd8db823915f93610c6952f3cb7651cf58f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="925879273e627f34059466359ba6789cf61889e2">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fc2c5287d9e65474a20da63be2a21fd864203944\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_6f2f16547e13b884b302a3eec97eb0d488676e8b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\1f038ffdde4e9842ce7692916e91c5d2cd6e8547\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2c73e2a93e00abd240e495c1e62217e53904a3f3">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3ba1c9f82e3f2e5362fcfcb6e37f70719131c510\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\36b3f0a16b6be8b431a0c3ff46073264fed2d8ed\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1eb1429b20e513f48be7e39a2e1c71fbd99100fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient-android\4.3.5.1\eecbb0b998e77629862a13d957d552b3be58fc4e\httpclient-android-4.3.5.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-android-4.3.5.1_263f3560cce948408d3952df2c574fdf57ba4518\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_092aeba1649755f8db643871f63093713d50e9f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\1bbfcb2d39746dddf9aa7e66703f20c6f62b4f84\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dc703c35f594398c269b79b0178c86744add9494">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_998ca64792f3c631afbae27e2cc02ed217386cf1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\b5de90b04b2d77cd7635dfaf2e2245c8dce06331\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="91dae39a5cc837ad2a829c0dc69c57ab8d69d22b">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9eeb57b3c28588e4b5c325dcbb8a3acbe79091b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\4841853a7a8a183919e8d3006e6f3637f8774786\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_788d5b805d26a8216acd1d08c2086e4ac7a56c3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\cda01bda7b31335da12e936b6cae27de4498701d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_43852824798155f4f9f2fbba62da10561cb038fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\Desktop\bf_101\app\libs\itextpdf-5.5.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="329e8b0c76b3265cea48e746ac794eaee6828b7b">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\2\itextpdf-5.5.8_53906fb8001f804e3e8ac5092cf532d89566680f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.2.2_af9a0283831047930c2a975ce747057eb3d360d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\c084c04fa5f3b467cf384213780b4073d712433b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="69f7591c9ff9238ff226e264c0260bb9f1ce0029">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_516af4c048c69a4530d834d0da416f9318d47da4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\3265a91e6f47e3280a99471fc54429b738a82e25\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f8a80c9882b064f2943e10649a8d2b249f5bf176">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eefc7c09a2a59d4ccd0cd881bce97b5bfbb3de6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\542675e48cbc6730e23ee4f05484fe7d09015099\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4a88eaa7f9a31907def9a7968367475bdf5170be">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f4824d4c9a389240798c8d4447f8ff60dbc1e4d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\dbbacf130b80e12580b6481a165bba19e503c5ad\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d2935dd6bf2794a1d93232a1b96236fb8eed4f85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\2eac668688c9b3fff73d14bce116778d62302f6f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6bd32b72098fecf44dcab3808a11e6b9fcb86b7b">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_daf1dabc57dade3bfaec19bfda1a1f86ae0375f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\ca43622d7863ecc83fd6c305beb56070be6fccdd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f2cb88e7e28736d44e7e643deb80c9af1c3662c8">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8feab6db8521b9f921f41406fd68adfcc27b9d2f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\ff15b9d85920c7dd32b192cf5ef3e0f8e5cc6af1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f10fed27d6d0b4aae675f17b33c639b4d5a0ed93">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ff9bb6d4a201e33fbed7db2cf13e57a3f4c99a2d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.5.2\91731b8f5868a3e8a8a773f29b8d06b5c358f5bb\firebase-client-jvm-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.5.2_d152b80bdc90bc8c887344c67dfeee22246390b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\0a772c0363ca1058af446cfc20eda854a6bfe57e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7c24e2e9773fb498e390ce973db382c3ddcf748e">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b5968987aa0e3ab4b087874c3102f89967c91342\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.2.2_2d74473da016b2c275bbcc62f5e29a05f11f8ba2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\d44c0b51a49995d8065a66f77404f0a4a7d02dd1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6db956f55089a8d067d7cab3f65aa2aba8b6396d">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_97686f6a0d12dc4c94780f1f3c1f8425ac6ec22c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\cda01bda7b31335da12e936b6cae27de4498701d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_43852824798155f4f9f2fbba62da10561cb038fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\Desktop\bf_101\app\libs\itextpdf-5.5.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="329e8b0c76b3265cea48e746ac794eaee6828b7b">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\2\itextpdf-5.5.8_53906fb8001f804e3e8ac5092cf532d89566680f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\dbbacf130b80e12580b6481a165bba19e503c5ad\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d2935dd6bf2794a1d93232a1b96236fb8eed4f85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.3\5b0002c5fb66867ca919be0fbd86de1cfaf76da7\httpmime-4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5b0002c5fb66867ca919be0fbd86de1cfaf76da7">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpmime-4.3_433a62196362019122704ebfd4f685f79cee1fff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\3e365530c7b5031d418b1e4ae38186cb82222eba\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="59cbbfb2937ebed98c8bb8882b7112d16358014e">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a9f89c134be9e623021742fa4d3ab3ec94186011\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\e52bad97e9562335a91f2b99dbb1c793e901f1fb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1d2f575e87ae0c54c2baeb81716d86c45aeb9186\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\542675e48cbc6730e23ee4f05484fe7d09015099\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a88eaa7f9a31907def9a7968367475bdf5170be">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f4824d4c9a389240798c8d4447f8ff60dbc1e4d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\2eac668688c9b3fff73d14bce116778d62302f6f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6bd32b72098fecf44dcab3808a11e6b9fcb86b7b">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_daf1dabc57dade3bfaec19bfda1a1f86ae0375f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\f6a75f343b55e0a3dbf3f8e9fe5af8571ea14021\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b685077cdb08cf7ae8b61afd1fe910e47d91b9a">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d74e7c05c3a745fc0e0b05b59b1fc01b0cdb40be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\ca43622d7863ecc83fd6c305beb56070be6fccdd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2cb88e7e28736d44e7e643deb80c9af1c3662c8">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8feab6db8521b9f921f41406fd68adfcc27b9d2f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\c64c3a0c13dcff409ba4330b37364971e5344830\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d928394035bd4f7d2ee9e1c63d45f9ec088e21a4">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a3f2df1dd5c2a5642279964f83faa52fd5392968\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.10.2\33ee82e324f4b1e40167f3dc5e01234a1c5cab61\jsoup-1.10.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="33ee82e324f4b1e40167f3dc5e01234a1c5cab61">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsoup-1.10.2_a3bfdce10c6063b1ea4426e7c6bc0c56a79aad23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2af89f6597c4a01491c07d18d498ba2f9a73c624">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d1ff6f5d0b19bb718ac90574cbe975407bdfa96b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\7ec707ff72429aef0411813d2e30e0f806f1fb54\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ac5e6ae168ef77f0b0b1e3245d7afd7d32f710c3">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fbe2f143b3f0d1a1439bdeadc64af823d04be0bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\3c65fd233a4dff843ef7eb09fd9e2ab9cf31f587\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_33b1d2ab0c8284029750ae901c4731d60abc3593\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.5.2\f19f10d6276aa0b380e2d05d2ab3272d693a5433\firebase-client-android-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-android-2.5.2_ed8825c935234bf0d42cdc96a9947254c89ea0f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\ba7d63c6173de8cd8e307c8177d45c3c4abb1837\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f47f4d5bdfd7d7bf330945b8a7ccce4ab437a710">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_285dc910acfca181b572cbbd7a53f70759ab3a4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\6c9e70c4631bf1dd4bd4572b85c9513fb8271177\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b12397bc9f342b29d9e9108978828f99a6da579">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_50f2591b695071b756313eee4d7bf151f8b22506\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\f6a75f343b55e0a3dbf3f8e9fe5af8571ea14021\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4b685077cdb08cf7ae8b61afd1fe910e47d91b9a">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d74e7c05c3a745fc0e0b05b59b1fc01b0cdb40be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\e52bad97e9562335a91f2b99dbb1c793e901f1fb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1d2f575e87ae0c54c2baeb81716d86c45aeb9186\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\0a772c0363ca1058af446cfc20eda854a6bfe57e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7c24e2e9773fb498e390ce973db382c3ddcf748e">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b5968987aa0e3ab4b087874c3102f89967c91342\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\4cb34dca5379c4cb4dc456bcc9afae1490d51b3d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f890dd2539b7f2582f450f0721e2dea6ae510c">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cf46fe5b9e10aac436066b1bd2dd14c39dba72cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e4b40f0c2ae06633f1b97dac8aaf09e0e7e4594c">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d1ff6f5d0b19bb718ac90574cbe975407bdfa96b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\3c65fd233a4dff843ef7eb09fd9e2ab9cf31f587\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_33b1d2ab0c8284029750ae901c4731d60abc3593\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\6c9e70c4631bf1dd4bd4572b85c9513fb8271177\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1b12397bc9f342b29d9e9108978828f99a6da579">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_50f2591b695071b756313eee4d7bf151f8b22506\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\36c2954a5d5b94216546979402f5bd368ed5ea3c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3ac08c35419ab7cf9146969de471768dbe502f0f">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b4add4557928288ad980032abd45717c2698f97e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\efb3b9a02b2adf8dd169ba6c308fa7602371d2aa\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cbbd26dd2f6d46181b41a5f6f5e34889442a811b">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5d972bd78b5f7105e5523ce8849e92d804c6a224\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\e9085d16e814c4ce08184997c40e1d2d1388ffc1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d4f9ace23785adf79a174d569bde261f032e1190">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8135657d2b27bbf6823d9654c0d787e7e689e504\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\c049485b78ad6ee42cf324917d82aa98d745aacc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b5b6af36bacf1d812cd3dc45f9dcab9ea471ed91">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_678df8e965a07a20d745ef2307b52120bda08ed9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\4cb34dca5379c4cb4dc456bcc9afae1490d51b3d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e7f890dd2539b7f2582f450f0721e2dea6ae510c">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cf46fe5b9e10aac436066b1bd2dd14c39dba72cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\2957d75632392f7139ceb0462770663240fcc20e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="416fb9ee2fd6e7af0bba04b01d90cb475b1e2074">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_87d9fa7e145ac7951f9e195b3d4bb43f48b9c481\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\11c0d7452b52e63acf4e659abd92c1513243e14f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_17a0396ce1d723fca5a9701003684b8062c84d02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\043d35a1f31febc36fde4fa7769633fc0d5ae201\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_454265f25722995c5c2b5882c8c96b1c435d031a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\ba7d63c6173de8cd8e307c8177d45c3c4abb1837\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f47f4d5bdfd7d7bf330945b8a7ccce4ab437a710">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_285dc910acfca181b572cbbd7a53f70759ab3a4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.0.1\287742f1c6cea6d9126670e9f031890b0462362a\support-annotations-27.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="287742f1c6cea6d9126670e9f031890b0462362a">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-27.0.1_dcc2b6d100881a5f0e05d3119aaf761032b7cfe9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\36c2954a5d5b94216546979402f5bd368ed5ea3c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3ac08c35419ab7cf9146969de471768dbe502f0f">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b4add4557928288ad980032abd45717c2698f97e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\36b3f0a16b6be8b431a0c3ff46073264fed2d8ed\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1eb1429b20e513f48be7e39a2e1c71fbd99100fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\0f2cc8a667730e6419a142461b4fc1822fcaf4bd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f25b1adab1e4b4f5cecb9dc6f19798afabcb177b">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b5977dd64220fa40032b0de6519f3757455b4629\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_092aeba1649755f8db643871f63093713d50e9f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\c049485b78ad6ee42cf324917d82aa98d745aacc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b5b6af36bacf1d812cd3dc45f9dcab9ea471ed91">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_678df8e965a07a20d745ef2307b52120bda08ed9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\11c0d7452b52e63acf4e659abd92c1513243e14f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_17a0396ce1d723fca5a9701003684b8062c84d02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\1f038ffdde4e9842ce7692916e91c5d2cd6e8547\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2c73e2a93e00abd240e495c1e62217e53904a3f3">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3ba1c9f82e3f2e5362fcfcb6e37f70719131c510\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.12\6ec0bbd3e161a73ed672284b587fd32309a86d7a\tubesock-0.0.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\tubesock-0.0.12_264cff22ef7e1871b95f2793270b3b958f7b991e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\2957d75632392f7139ceb0462770663240fcc20e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="416fb9ee2fd6e7af0bba04b01d90cb475b1e2074">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_87d9fa7e145ac7951f9e195b3d4bb43f48b9c481\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akano\.android\build-cache\0f052f2268310deeee7f0cb37b10c570503a9ce3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="C:\Users\Akano\Desktop\bf_101\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e0fb98fd899c9ce3602455299749af4d5100a3d8\classes.dex" />
+    </item>
+
+</items>

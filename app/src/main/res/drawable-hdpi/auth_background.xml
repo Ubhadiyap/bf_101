@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:startColor="@android:color/white"
+        android:angle="90"
+        android:endColor="@color/authBgEnd"
+        >
+
+    </gradient>
+</shape>

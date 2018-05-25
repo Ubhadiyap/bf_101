@@ -1,0 +1,4 @@
+#Fri May 25 01:32:52 WAT 2018
+base.0=/Users/ribads/Documents/Mr leshi/bf_101/app/build/intermediates/transforms/dexMerger/debug/7
+path.0=classes.dex
+renamed.0=classes.dex
